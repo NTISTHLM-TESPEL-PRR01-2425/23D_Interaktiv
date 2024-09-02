@@ -1,9 +1,13 @@
 ﻿Console.WriteLine("Användarnamn: ");
 string name = Console.ReadLine();
 
-if (name == "micke")
+if (name.ToLower() == "micke")
 {
   Console.WriteLine("Inloggad! Välkommen!");
+}
+else if (name == "martin" || name == "liv")
+{
+  Console.WriteLine("Mja, kanske");
 }
 else
 {
