@@ -1,6 +1,7 @@
 ﻿Console.WriteLine("Användarnamn: ");
 string name = Console.ReadLine();
 
+
 if (name.ToLower() == "micke")
 {
   Console.WriteLine("Inloggad! Välkommen!");
